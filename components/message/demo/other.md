@@ -27,7 +27,9 @@ const error = () => {
 const warning = () => {
   message.warning('This is a warning message');
 };
-
+const info = () =>{
+  message.info("this is a info message");
+};
 ReactDOM.render(
   <Space>
     <Button onClick={success}>Success</Button>
